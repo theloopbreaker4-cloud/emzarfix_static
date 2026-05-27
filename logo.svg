@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <defs>
+    <linearGradient id="circleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a6fdb"/>
+      <stop offset="100%" stop-color="#1a3a8f"/>
+    </linearGradient>
+    <linearGradient id="drumGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4d94ff"/>
+      <stop offset="100%" stop-color="#2a6fdb"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0d2b6e" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- ── ICON ── -->
+  <!-- Outer circle -->
+  <circle cx="40" cy="40" r="36" fill="url(#circleGrad)" filter="url(#shadow)"/>
+
+  <!-- Machine body inside circle (simplified flat) -->
+  <!-- Top control strip -->
+  <rect x="18" y="16" width="44" height="11" rx="3" fill="#0d2b6e" opacity="0.6"/>
+  <!-- Power dot -->
+  <circle cx="25" cy="21.5" r="3" fill="#ff6b35"/>
+  <!-- Small dots -->
+  <circle cx="33" cy="21.5" r="1.8" fill="#4d94ff" opacity="0.8"/>
+  <circle cx="39" cy="21.5" r="1.8" fill="#4d94ff" opacity="0.5"/>
+
+  <!-- Door ring outer -->
+  <circle cx="40" cy="52" r="17" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.15"/>
+  <!-- Door frame -->
+  <circle cx="40" cy="52" r="15" fill="#0a1f5e"/>
+  <!-- Door glass gradient circle -->
+  <circle cx="40" cy="52" r="13" fill="none" stroke="url(#drumGrad)" stroke-width="2.5"/>
+  <!-- Inner drum ring -->
+  <circle cx="40" cy="52" r="8" fill="none" stroke="#4d94ff" stroke-width="1.5" opacity="0.6"/>
+  <!-- Drum holes -->
+  <circle cx="34" cy="47" r="1.8" fill="#4d94ff" opacity="0.7"/>
+  <circle cx="40" cy="45" r="1.8" fill="#4d94ff" opacity="0.7"/>
+  <circle cx="46" cy="47" r="1.8" fill="#4d94ff" opacity="0.7"/>
+  <circle cx="34" cy="57" r="1.8" fill="#4d94ff" opacity="0.7"/>
+  <circle cx="40" cy="59" r="1.8" fill="#4d94ff" opacity="0.7"/>
+  <circle cx="46" cy="57" r="1.8" fill="#4d94ff" opacity="0.7"/>
+  <!-- Center hub -->
+  <circle cx="40" cy="52" r="4" fill="url(#drumGrad)"/>
+  <circle cx="40" cy="52" r="2" fill="#e8f2ff"/>
+
+  <!-- Door handle nub -->
+  <rect x="54" y="48" width="4" height="8" rx="2" fill="#2a6fdb"/>
+
+  <!-- ── WORDMARK ── -->
+  <!-- EMZARI -->
+  <text x="90" y="38"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="22"
+    font-weight="800"
+    letter-spacing="1.5"
+    fill="#ffffff">EMZARI</text>
+
+  <!-- Tagline -->
+  <text x="91" y="56"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="10"
+    font-weight="400"
+    letter-spacing="2.5"
+    fill="#7aabee"
+    opacity="0.9">ᲡᲐᲠᲔᲪᲮᲘ ᲛᲐᲜᲥᲐᲜᲐ</text>
+
+  <!-- Accent line under EMZARI -->
+  <line x1="90" y1="43" x2="208" y2="43" stroke="#2a6fdb" stroke-width="1.2" opacity="0.5"/>
+</svg>

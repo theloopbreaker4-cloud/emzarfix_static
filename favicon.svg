@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a6fdb"/>
+      <stop offset="100%" stop-color="#1a3a8f"/>
+    </linearGradient>
+    <linearGradient id="drum" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4d94ff"/>
+      <stop offset="100%" stop-color="#2a6fdb"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circle background -->
+  <circle cx="32" cy="32" r="30" fill="url(#bg)"/>
+
+  <!-- Control strip -->
+  <rect x="12" y="10" width="40" height="10" rx="2.5" fill="#0d2b6e" opacity="0.6"/>
+  <!-- Power dot -->
+  <circle cx="19" cy="15" r="2.8" fill="#ff6b35"/>
+  <!-- Small dots -->
+  <circle cx="27" cy="15" r="1.6" fill="#4d94ff" opacity="0.8"/>
+  <circle cx="33" cy="15" r="1.6" fill="#4d94ff" opacity="0.5"/>
+
+  <!-- Door frame -->
+  <circle cx="32" cy="40" r="18" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.1"/>
+  <circle cx="32" cy="40" r="16" fill="#0a1f5e"/>
+  <!-- Door ring -->
+  <circle cx="32" cy="40" r="14" fill="none" stroke="url(#drum)" stroke-width="2.5"/>
+  <!-- Inner ring -->
+  <circle cx="32" cy="40" r="8.5" fill="none" stroke="#4d94ff" stroke-width="1.5" opacity="0.6"/>
+  <!-- Holes -->
+  <circle cx="26" cy="35" r="1.8" fill="#4d94ff" opacity="0.75"/>
+  <circle cx="32" cy="33" r="1.8" fill="#4d94ff" opacity="0.75"/>
+  <circle cx="38" cy="35" r="1.8" fill="#4d94ff" opacity="0.75"/>
+  <circle cx="26" cy="45" r="1.8" fill="#4d94ff" opacity="0.75"/>
+  <circle cx="32" cy="47" r="1.8" fill="#4d94ff" opacity="0.75"/>
+  <circle cx="38" cy="45" r="1.8" fill="#4d94ff" opacity="0.75"/>
+  <!-- Center hub -->
+  <circle cx="32" cy="40" r="4.5" fill="url(#drum)"/>
+  <circle cx="32" cy="40" r="2" fill="#e8f2ff"/>
+
+  <!-- Handle -->
+  <rect x="47" y="36" width="4" height="8" rx="2" fill="#2a6fdb"/>
+</svg>
