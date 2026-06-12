@@ -11,8 +11,8 @@ Static landing site for **Emzar** — professional washing machine repair in Tbi
 
 ```bash
 # When domain is ready — issue SSL
-ssh root@77.42.74.12 "certbot --nginx -d DOMAIN -d www.DOMAIN --non-interactive --agree-tos -m vaska4alaska@gmail.com"
+ssh root@SERVER "certbot --nginx -d DOMAIN -d www.DOMAIN --non-interactive --agree-tos -m YOUR_EMAIL"
 
 # Update site
-ssh root@77.42.74.12 "cd /var/www/emzar && git pull"
+ssh root@SERVER "cd /var/www/emzar && git pull"
 ```
