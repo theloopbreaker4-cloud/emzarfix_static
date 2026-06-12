@@ -5,7 +5,7 @@ Static landing site for **Emzar** — professional washing machine repair in Tbi
 - **Domain**: TBD
 - **Server**: CX23 · `/var/www/emzar`
 - **Stack**: Pure HTML/CSS/JS, no build step
-- **Phone**: +995 557 500 458
+- **Phone**: contact owner
 
 ## Deploy
 
